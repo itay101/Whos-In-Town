@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/src/components/artist-info/artist-info.directive.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/components/favorite-list/favorite-list.component.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/app.directive.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/components/search-artist/search-artist.directive.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/template/event.html.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/app.controller.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/event.controller.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/shared/api.service.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/components/events-list/event-item.directive.js" />
+        <item url="file://$PROJECT_DIR$/dist/webpack.config.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/shared/events.service.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/components/events-list/events-list.directive.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/index.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/src/components/artist-info/artist-info.directive.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/components/favorite-list/favorite-list.component.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/app.directive.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/components/search-artist/search-artist.directive.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/template/event.html.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/app.controller.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/event.controller.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/shared/api.service.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/components/events-list/event-item.directive.js" />
+      <root url="file://$PROJECT_DIR$/dist/webpack.config.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/shared/events.service.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/components/events-list/events-list.directive.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/index.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

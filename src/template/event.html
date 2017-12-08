@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4">{{event.lineup[0]}}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4 class="h4">Date: {{event.datetime | date:'medium'}}</h4>
+                <p>
+                    <span class="font-weight-bold">Venue name:</span> {{event.venue.name}}<br>
+                    <span class="font-weight-bold">City:</span> {{event.venue.city}}<br>
+                    <span class="font-weight-bold">Country:</span> {{event.venue.country}}<br>
+                    <span class="font-weight-bold">Region:</span> {{event.venue.region}}
+                </p>
+                <p>{{event.description}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row" ng-repeat="offer in event.offers">
+                    <div class="col">
+                        <div class="type"> {{offer.type}} {{offer.status}}</div>
+                        <div class="url"> {{offer.url}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>
+                    <button ng-if="!isFavorite" type="button" class="btn btn-primary" ng-click="addToFavorites()">Add to
+                        favorites
+                    </button>
+                    <button ng-if="isFavorite" type="button" class="btn btn-danger" ng-click="removeFromFavorites()">Remove from
+                        favorites
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12" style="margin-top: 10px;">
+        <ng-map center="{{event.venue.latitude}},{{event.venue.longitude}}" zoom="15">
+            <marker position="{{event.venue.name}}"></marker>
+
+        </ng-map>
+    </div>
+</div>

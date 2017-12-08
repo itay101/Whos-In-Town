@@ -1,0 +1,35 @@
+.favorites-list{
+
+  .favorites-item{
+    cursor: pointer;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+
+    &:hover{
+      background: #ebebeb;
+    }
+  }
+}
+.event-list{
+  .event-list-header{
+    border-bottom:1px solid;
+    margin-bottom: 10px;
+  }
+  .event-item{
+    display: flex;
+    flex-direction: row;
+    cursor:pointer;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+
+    &:hover {
+      background: #ebebeb;
+    }
+  }
+}

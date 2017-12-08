@@ -1,0 +1,11 @@
+<div class="favorites-list col">
+    <h5>Favorites</h5>
+    <div class="favorites-item" ng-repeat="event in favorites" ng-click="eventSelected(event)">
+        <p>
+            {{event.datetime | date:'medium'}} <br>
+            <span class="artist font-weight-bold">{{event.lineup[0]}} | </span>
+            <span class="venue">{{event.venue.name}} - </span>
+            <span class="location">{{event.venue.city}}, {{event.venue.country}}</span>
+        </p>
+    </div>
+</div>
